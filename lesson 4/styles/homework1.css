@@ -1,0 +1,89 @@
+    @import url(reset.css);
+
+    #container {
+        height: 770px;
+        width: 96%;
+        margin: 95px auto;
+        border-top: black solid 2px;
+    }
+
+    .A {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: #ED213A;
+        background: -webkit-linear-gradient(to top, #93291E, #ED213A);
+        background: linear-gradient(to top, #93291E, #ED213A);
+
+    }
+
+    .R {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: linear-gradient(to top, #a3537b, #364569);
+    }
+
+    .S {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: linear-gradient(to top, #d1872c, #5edbc9);
+
+    }
+
+    .E {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: #5A3F37;
+        background: -webkit-linear-gradient(to top, #2C7744, #5A3F37);
+        background: linear-gradient(to top, #2C7744, #5A3F37);
+    }
+
+    .N {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: linear-gradient(to top, #e8cfae, #e3a17d, #ed4e6b);
+    }
+
+    .A1 {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: #ED213A;
+        background: -webkit-linear-gradient(to top, #93291E, #ED213A);
+        background: linear-gradient(to top, #93291E, #ED213A);
+    }
+
+    .L {
+        height: 770px;
+        width: 14.5%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 -4px;
+        background: #603813;
+        background: -webkit-linear-gradient(to top, #b29f94, #603813);
+        background: linear-gradient(to top, #b29f94, #603813);
+    }
+
+    span {
+        line-height: 770px;
+        font-size: 120px;
+        color: ghostwhite;
+        font-family: georgia;
+        text-shadow: black 0px 0px 10px;
+    }
