@@ -1,0 +1,762 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+header {
+  height: 53.4vw;
+  width: 1440px;
+  background-image: url(../style/image/fon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand1 {
+  padding-top: 88px;
+  color: #ffffff;
+  font-family: "Libre Franklin";
+  line-height: 29px;
+  padding-left: 165px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+.navbar-nav {
+  padding-top: 85px;
+  padding-right: 163px;
+}
+
+.nav-link p {
+  color: #ffffff;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.hero {
+  margin-top: 145px;
+}
+.chapter {
+  font-family: Libre Franklin;
+
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 28px;
+  color: #ffffff;
+  padding-left: 165px;
+}
+.plot {
+  font-family: Libre Franklin;
+
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding-left: 165px;
+}
+
+.linky {
+  font-family: Libre Franklin;
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  padding-left: 165px;
+}
+
+.linky:hover {
+  color: #ffffff;
+}
+
+.text_1 {
+  font-family: Libre Franklin;
+  line-height: 29px;
+  color: #333333;
+  margin-top: 93px;
+}
+
+.text_2 {
+  font-family: Libre Franklin;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin-top: 76px;
+}
+
+.text_3 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin-top: 27px;
+}
+
+.skills {
+  background-color: #fffaf2;
+  margin-top: 115px;
+  height: 693px;
+}
+
+.text_skill {
+  margin-top: 93px;
+}
+
+.skill {
+  margin-top: 85px;
+}
+.profile p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.profile h3 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.progress {
+  width: 466px;
+  border-radius: 0px;
+  background-color: #f5d6ab;
+  height: 24px;
+}
+
+.progress-bar {
+  background-color: #c66c49;
+}
+
+.progress_menu h3 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.tools p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.tools span {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.reserch {
+  margin-top: 65px;
+}
+
+.portfolio {
+  width: 100%;
+  height: 822px;
+  background-color: #9b8379;
+}
+
+.head p {
+  padding-top: 93px;
+  font-family: Libre Franklin;
+  line-height: 29px;
+  color: #333333;
+}
+
+.head2 {
+  font-family: Libre Franklin;
+  line-height: 25px;
+  margin-top: 86px;
+}
+
+.mark p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  color: #333333;
+  margin-top: 48px;
+}
+.mark {
+  background: none;
+}
+.mark1 {
+  margin-top: 255px;
+}
+
+.mark3 {
+  margin-left: 26px;
+}
+
+.uil-angle-left-b {
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+}
+.uil-angle-right-b {
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+}
+.case2 {
+  display: flex;
+  width: 100%;
+}
+.pic1 img {
+  margin-top: 50px;
+}
+.pic2 img {
+  margin-top: 26px;
+}
+.pic3 img {
+  margin-top: 50px;
+}
+.pic4 img {
+  margin-top: 26px;
+}
+
+footer {
+  height: 528px;
+  width: 100%;
+  background-color: #fffaf2;
+}
+.colum {
+  display: flex;
+}
+.colum-1 a {
+  display: flex;
+  flex-flow: column;
+  color: #333333;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.colum-2 a {
+  display: flex;
+  flex-flow: column;
+  color: #333333;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.colum-3 a {
+  display: flex;
+  flex-flow: column;
+  color: #333333;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+h5 {
+  padding-top: 93px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.colum {
+  margin-top: 51px;
+}
+
+.uil-angle-up {
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14%;
+}
+@media screen and (max-width: 1199px) {
+  .navbar-brand1 {
+    padding-left: 115px;
+  }
+  .chapter {
+    padding-left: 115px;
+    font-size: 44px;
+  }
+  .hero {
+    margin-top: 50px;
+  }
+  .plot {
+    padding-left: 115px;
+    padding-bottom: 12px;
+  }
+  .linky {
+    padding-left: 115px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar .container-fluid {
+    display: flex;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler {
+    margin-right: 90%;
+    margin-top: -4%;
+  }
+  .navbar-brand1 {
+    padding-top: 6%;
+  }
+  .navbar-nav {
+    padding-top: 24px;
+  }
+  .navbar-nav {
+    width: 279px;
+    height: 299px;
+  }
+  .pic {
+    height: 250px;
+  }
+  .profile p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .profile h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .progress_menu h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .tools p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .tools span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .reserch {
+    margin-top: 32px;
+  }
+  .pic1 img {
+    width: 250px;
+  }
+  .pic2 img {
+    width: 250px;
+  }
+  .pic3 img {
+    width: 220px;
+    height: 160px;
+  }
+  .pic4 img {
+    width: 220px;
+    height: 110px;
+  }
+  .mark1 {
+    margin-top: 35px;
+  }
+  .uil-angle-up {
+    margin-left: 3%;
+    margin-top: 26%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand1 {
+    padding-left: 43%;
+  }
+
+  .chapter {
+    margin-top: -10%;
+    font-size: 30px;
+    padding-left: 25%;
+  }
+
+  .plot {
+    margin-top: -21px;
+    font-size: 20px;
+    padding-left: 28%;
+  }
+  .linky {
+    padding-left: 39%;
+    padding-top: 10px;
+  }
+  .nav-link p {
+    font-size: 14px;
+    margin-top: -2%;
+  }
+  .navbar-nav {
+    padding-top: 7px;
+  }
+  .text_1 {
+    text-align: center;
+    margin-top: 21.87px;
+  }
+  .text_2 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    margin-top: 16.62px;
+    padding-left: 34px;
+    padding-right: 29px;
+    color: #333333;
+    display: block;
+  }
+
+  .text_3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 20px;
+    text-align: justify;
+    padding-left: 34px;
+    padding-right: 29px;
+    color: #333333;
+    display: block;
+  }
+
+  .skills {
+    width: 100%;
+    height: 617px;
+    margin-top: 38px;
+  }
+
+  .pic {
+    width: 224px;
+    height: 218px;
+    margin-left: 28%;
+  }
+
+  .skill {
+    margin-top: 0px;
+  }
+
+  .text_skill {
+    margin-top: 39px;
+    text-align: center;
+  }
+
+  .progress_menu h3 {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .progress {
+    width: 300px;
+    height: 18px;
+  }
+  .mark1 {
+    display: none;
+  }
+  .case2 {
+    display: block;
+  }
+
+  .mark2 {
+    float: left;
+    margin-right: 30px;
+  }
+  .uil-angle-up {
+    margin-left: 1%;
+    margin-top: 33%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .navbar-brand1 {
+    padding-top: 5%;
+    padding-left: 34%;
+  }
+  .navbar-nav {
+    font-size: 10px;
+    padding-top: 21px;
+  }
+  .navbar-toggler {
+    margin-top: -7%;
+  }
+  .nav-link p {
+    font-size: 10px;
+    margin-top: -7%;
+  }
+  .chapter {
+    font-size: 14px;
+    margin-top: -18%;
+    padding-left: 28%;
+  }
+  .plot {
+    font-size: 16px;
+    margin-top: -12%;
+    padding-left: 22%;
+  }
+  .linky {
+    font-size: 13px;
+    padding-left: 33%;
+    margin-top: -32px;
+  }
+
+  .pic {
+    position: relative;
+    margin-top: 18px;
+    width: 224px;
+    height: 218px;
+  }
+  .skills {
+    height: 693px;
+  }
+  .text_skill {
+    margin-top: 24px;
+  }
+
+  .profile p {
+    margin-left: 100px;
+  }
+  .roll {
+    margin-left: 14%;
+  }
+  .roll2 {
+    margin-left: 15%;
+  }
+  .roll3 {
+    margin-left: 11%;
+  }
+  .tools p {
+    margin-right: 20%;
+  }
+  .head p {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .portfolio {
+    width: 100%;
+    height: 618px;
+  }
+  .head2 p {
+    text-align: center;
+    margin-top: -50px;
+  }
+  .mark p {
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .mark1 {
+    display: none;
+  }
+  .mark2 {
+    margin-left: 4vw;
+  }
+
+  .pic1 img {
+    width: 169.76px;
+    height: 69.85px;
+  }
+
+  .pic2 img {
+    width: 169.28px;
+    height: 113px;
+  }
+
+  .pic3 img {
+    width: 123.69px;
+    height: 113.01px;
+  }
+
+  .pic4 img {
+    width: 123.69px;
+    height: 69.85px;
+  }
+  .uil-angle-up {
+    margin-left: 0%;
+  }
+  h5 {
+    text-align: center;
+    margin-top: -45px;
+  }
+  footer {
+    height: 360px;
+    width: 100%;
+  }
+  .colum {
+    display: block;
+  }
+  .colum-1 {
+    float: left;
+    margin-left: 34px;
+    margin-right: 90px;
+  }
+
+  .colum-1 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .colum-2 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .colum-3 {
+    margin-left: 34px;
+    margin-top: 50px;
+  }
+  .colum-3 a {
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .uil-angle-up {
+    margin-top: -4%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .chapter {
+    font-size: 20px;
+    padding-left: 14%;
+    margin-top: -25%;
+  }
+  .plot {
+    font-size: 13px;
+    margin-top: -20%;
+    padding-left: 21%;
+  }
+  .linky {
+    margin-top: -3%;
+  }
+  .nav-link p {
+    margin-top: -30px;
+  }
+  .skills {
+    height: 617px;
+  }
+  .pic {
+    margin-left: 70px;
+  }
+  .text_skill {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .profile h3 {
+    font-size: 12px;
+    margin-left: 34px;
+    margin-top: 26px;
+  }
+  .profile p {
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 59px;
+    margin-top: 26px;
+    color: #333333;
+  }
+
+  .progress_menu h3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+    margin-left: 34px;
+  }
+  .roll {
+    width: 211px;
+    height: 18px;
+    margin-left: 9%;
+  }
+  .roll2 {
+    margin-left: 11%;
+    width: 211px;
+    height: 18px;
+  }
+  .roll3 {
+    margin-left: 5%;
+    width: 211px;
+    height: 18px;
+  }
+
+  .tools p {
+    margin-left: 34px;
+    font-size: 12px;
+    margin-right: 0px;
+  }
+
+  .tools span {
+    font-size: 12px;
+    margin-left: 20%;
+  }
+  .portfolio {
+    height: 404px;
+  }
+  .head {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 25px;
+  }
+  .head2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 73px;
+  }
+
+  .mark p {
+    margin-top: -10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .mark2 {
+    margin-top: -50px;
+    margin-right: 19px;
+  }
+
+  .mark3 {
+    margin-top: -50px;
+  }
+  .pic1 img {
+    width: 169.76px;
+    height: 69.85px;
+  }
+
+  .pic2 img {
+    margin-top: 12px;
+  }
+
+  .pic3 img {
+    width: 120px;
+    height: 113px;
+  }
+
+  .pic4 img {
+    margin-top: 12px;
+  }
+}
