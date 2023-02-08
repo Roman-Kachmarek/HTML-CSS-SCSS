@@ -1,0 +1,100 @@
+@import url(reset.css);
+
+body {
+    background-color: #f2f2f2;
+}
+
+#head {
+    background-color: ghostwhite;
+    border: whitesmoke 2px solid;
+    height: 76px;
+}
+
+.emblem {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.menu {
+    text-align: right;
+}
+
+.item1 {
+    display: inline-block;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    margin: 0px -3px;
+}
+
+.item2 {
+    display: inline-block;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0px -3px;
+    cursor: pointer;
+}
+
+.item3 {
+    display: inline-block;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0px -3px;
+    cursor: pointer;
+}
+
+.item4 {
+    display: inline-block;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0px -3px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.item1:hover {
+    background-color: #f2f2f2;
+}
+
+.item2:hover {
+    background-color: #f2f2f2;
+}
+
+.item3:hover {
+    background-color: #f2f2f2;
+}
+
+.item4:hover {
+    background-color: #f2f2f2;
+}
+
+.fa-address-book {
+    font-size: 30px;
+}
+
+.fa-user-graduate {
+    font-size: 30px;
+}
+
+.fa-book-reader {
+    font-size: 30px;
+}
+
+.fa-people-carry {
+    font-size: 30px;
+}
