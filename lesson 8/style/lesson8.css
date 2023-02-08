@@ -1,0 +1,2494 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+
+
+.wrapper {
+    height: 3581px;
+    width: 1440px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 1440px;
+    height: 120px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.dropdown {
+    margin-left: 40px;
+    margin-top: 41px;
+    position: absolute;
+}
+
+.uil-times {
+    font-size: 45px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.dropdown:hover .uil-times {
+    color: black;
+    cursor: pointer;
+}
+
+.click1 {
+    padding-top: 55px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.click2 {
+    padding-top: 21px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.click3 {
+    padding-top: 24px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.click4 {
+    padding-top: 23px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.click5 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    word-spacing: 1px;
+
+}
+
+.click6 {
+    padding-top: 23px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.click7 {
+    padding-top: 23px;
+    font-size: 16px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+    margin-left: -1px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    width: 344px;
+    height: 359px;
+    margin-left: 11px;
+    margin-top: 20px;
+    padding-left: 66px;
+    opacity: 0.6;
+}
+
+.dropdown-content a {
+    text-decoration: underline 2px;
+    text-decoration-color: grey;
+    color: black;
+}
+
+.suffix_emblem {
+    width: 157px;
+    height: 30px;
+    margin-left: 641.79px;
+    margin-top: 45.5px;
+}
+
+.menu {
+    display: none;
+}
+
+.massive {
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.box1 img {
+    width: 720px;
+    height: 570px;
+}
+
+.box2 {
+    background-color: black;
+    width: 720px;
+    height: 570px;
+
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    width: 503px;
+    margin-top: 110px;
+    margin-left: 108px;
+}
+
+.date p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    letter-spacing: 7px;
+    color: #FFFFFF;
+    width: 136px;
+    height: 21px;
+
+}
+
+.date span {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    color: #FFFFFF;
+    width: 75px;
+    height: 24px;
+    margin-top: -3px;
+    text-decoration-line: underline;
+
+}
+
+.chapter {
+    color: #FFFFFF;
+    width: 503px;
+    height: 42px;
+    margin-top: 66px;
+    margin-left: 108px;
+    font-size: 28px;
+    line-height: 42px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 1px;
+    word-spacing: 3px;
+
+}
+
+.plot {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Kanit-Light;
+    font-style: normal;
+    width: 503px;
+    height: 42px;
+    margin-top: 29px;
+    margin-left: 108px;
+    word-spacing: 2.7px;
+}
+
+.read_button {
+    width: 198px;
+    height: 55px;
+    margin-top: 54px;
+    margin-left: 108px;
+    border: 1px solid whitesmoke;
+    padding-top: 19px;
+
+}
+
+.read_button p {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    word-spacing: 1px;
+
+}
+
+.FEATURED {
+    width: 86px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    margin-top: 57px;
+    margin-left: 149px;
+    font-family: Kanit-Medium;
+    font-style: normal;
+}
+
+.massive1 {
+    width: 79.5%;
+    height: 591px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 149px;
+    margin-top: 30px;
+}
+
+.box3 {
+    width: 48.6%;
+    height: 591px;
+
+}
+
+.box3 img {
+    width: 557px;
+    height: 368px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+
+}
+
+.box4 {
+    width: 48.9%;
+    height: 591px;
+
+}
+
+.box4 img {
+    width: 557px;
+    height: 368px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+
+}
+
+.date1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+
+.date1 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.date1 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-top: 2px;
+
+}
+
+.chapter1 {
+    width: 460px;
+    height: 72px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Kanit-Medium;
+    color: #1F1F1D;
+    font-style: normal;
+    margin-top: 32px;
+    word-spacing: 3.7px;
+}
+
+.plot1 {
+    width: 557px;
+    height: 54px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    font-family: Kanit-Light;
+    margin-top: 18px;
+    word-spacing: 2.5px;
+    margin-left: -1px;
+
+}
+
+.date2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+
+.date2 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+
+}
+
+.date2 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 3px;
+    padding-top: 2px;
+
+}
+
+.chapter2 {
+    width: 460px;
+    height: 72px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Kanit-Medium;
+    color: #1F1F1D;
+    font-style: normal;
+    margin-top: 32px;
+    word-spacing: 3.8px;
+}
+
+.plot2 {
+    width: 557px;
+    height: 54px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    font-family: Kanit-Light;
+    margin-top: 18px;
+    word-spacing: 2.5px;
+}
+
+.massive2 {
+    width: 79.5%;
+    height: 327px;
+    margin-left: 147px;
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box5 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.box6 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.box7 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.date3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-left: 2px;
+}
+
+.date3 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date3 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 1px;
+}
+
+.date4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.date4 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date4 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 1px;
+}
+
+.date5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.date5 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date5 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 1px;
+}
+
+.plot3 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 3px;
+    margin-top: 22px;
+    word-spacing: 1.8px;
+
+}
+
+.plot4 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 2px;
+    margin-top: 24px;
+    word-spacing: 1.8px;
+
+}
+
+.plot5 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 2px;
+    margin-top: 24px;
+    word-spacing: 1.8px;
+
+}
+
+.seeall_button {
+    width: 16.5%;
+    height: 42px;
+    margin: 0 auto;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 63px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    word-spacing: 2px;
+    padding-left: 2px;
+    padding-top: 11px;
+}
+
+.massive3 {
+    width: 79.5%;
+    height: 362px;
+    margin-left: 147px;
+    margin-top: 71.33px;
+    display: flex;
+
+}
+
+.box9 {
+    width: 50%;
+    height: 360px;
+    background-color: black;
+
+}
+
+
+.box9 p {
+    color: #FFFFFF;
+    margin-top: 125px;
+    margin-left: 116px;
+    font-size: 34px;
+    line-height: 51px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    word-spacing: 5px;
+
+}
+
+.box9 span {
+    color: #FFFFFF;
+    border: 1px solid whitesmoke;
+    width: 35%;
+    height: 42px;
+    display: block;
+    margin-left: 187px;
+    margin-top: 20px;
+    padding-left: 46px;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    word-spacing: 1px;
+}
+
+
+.inter {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    font-family: Kanit-Medium;
+    margin-top: 63.67px;
+    margin-left: 150px;
+}
+
+.massive4 {
+    width: 79.5%;
+    height: 327px;
+    margin-left: 148px;
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box10 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.box11 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.box12 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.date6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.date6 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date6 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.date7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.date7 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date7 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.date8 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.date8 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date8 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-top: 3px;
+}
+
+.plot6 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 2px;
+    margin-top: 27px;
+    word-spacing: 1.9px;
+
+}
+
+.plot7 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 1px;
+    margin-top: 28px;
+    word-spacing: 1.8px;
+
+}
+
+.plot8 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 0.8px;
+    margin-top: 27px;
+    word-spacing: 1.8px;
+
+}
+
+.seeall1_button {
+    width: 16.5%;
+    height: 42px;
+    margin: 38px auto;
+    background-color: black;
+    color: #FFFFFF;
+    /* margin-top: 63px;*/
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    word-spacing: 2px;
+    padding-left: 2px;
+    padding-top: 11px;
+}
+
+.news {
+
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    font-family: Kanit-Medium;
+    margin-top: -7px;
+    margin-left: 149px;
+    font-style: normal;
+
+}
+
+.massive5 {
+    width: 79.5%;
+    height: 327px;
+    margin-left: 148px;
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box13 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.box14 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+.box15 {
+
+    width: 31.9%;
+    height: 240px;
+}
+
+
+.date9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.date9 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date9 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 2px;
+}
+
+
+
+.date10 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.date10 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date10 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 2px;
+
+}
+
+.date11 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.date11 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+    font-family: Kanit-Medium;
+    font-style: normal;
+    padding-left: 1px;
+}
+
+.date11 span {
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-right: 2px;
+}
+
+.plot9 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 2px;
+    margin-top: 21px;
+    word-spacing: 1.9px;
+
+}
+
+.plot10 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 3px;
+    margin-top: 23px;
+    word-spacing: 1.8px;
+
+}
+
+.plot11 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    padding-left: 0.8px;
+    margin-top: 24px;
+    word-spacing: 1.8px;
+
+}
+
+.seeall2_button {
+    width: 16.5%;
+    height: 42px;
+    margin: 0 auto;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-family: Kanit-Medium;
+    word-spacing: 2px;
+    padding-left: 2px;
+    padding-top: 11px;
+}
+
+
+footer {
+    width: 1440px;
+    height: 142px;
+    background: #000000;
+    margin-top: 100px;
+
+}
+
+.foott {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 142px;
+    height: 27px;
+    padding-left: 649.39px;
+    padding-top: 55px;
+
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Kanit-Light;
+    color: #FFFFFF;
+    padding-top: 65px;
+    margin-left: 669px;
+    word-spacing: 2px;
+}
+
+
+@media screen and (max-width: 1640px) {
+    .wrapper {
+        width: 1440px;
+        height: 3581px;
+
+    }
+
+    header {
+        width: 1440px;
+    }
+
+    footer {
+        width: 1440px;
+
+    }
+
+}
+
+@media screen and (max-width: 1480px) {
+
+    .wrapper {
+        width: 1240px;
+        height: 3528px;
+
+    }
+
+    header {
+        width: 1240px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        width: 24px;
+        height: 19px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 51px;
+
+    }
+
+    .suffix_emblem {
+        margin-left: 542px;
+        margin-top: 45px;
+    }
+
+    .box1 img {
+        width: 620px;
+        object-fit: cover;
+    }
+
+    .box2 {
+        width: 620px;
+    }
+
+    .date {
+        margin-top: 128px;
+        width: 408px;
+        margin-left: 104px;
+    }
+
+    .chapter {
+        width: 394px;
+        height: 84px;
+        margin-top: 35px;
+        margin-left: 103px;
+        word-spacing: 0px;
+    }
+
+    .plot {
+        width: 411px;
+        height: 41px;
+        word-spacing: 0px;
+        margin-top: 24px;
+        margin-left: 105px;
+    }
+
+    .read_button {
+        margin-top: 58px;
+        margin-left: 104px;
+        margin-top: 58px;
+        margin-left: 104px;
+        padding-top: 18px;
+    }
+
+    .massive1 {
+        margin-top: 18px;
+        width: 941px;
+        height: 525px;
+
+    }
+
+    .box3 img {
+        width: 456px;
+        height: 303px;
+    }
+
+    .box3 {
+        width: 456px;
+        height: 525px;
+
+
+    }
+
+    .box4 img {
+        width: 456px;
+        height: 303px;
+        margin-left: 1px;
+    }
+
+    .box4 {
+        width: 456px;
+        height: 525px;
+
+
+    }
+
+    .chapter1 {
+        word-spacing: 0px;
+        padding-top: 2px;
+    }
+
+    .plot1 {
+        word-spacing: 0px;
+        width: 455px;
+        height: 54px;
+        padding-top: 3px;
+        padding-left: 1px;
+    }
+
+    .date1 {
+        margin-top: 23px;
+    }
+
+    .date1 p {
+        padding-left: 1px;
+        padding-top: 1px;
+    }
+
+    .date1 span {
+        padding-top: 1px;
+
+    }
+
+
+    .chapter2 {
+        word-spacing: 0px;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+
+    .plot2 {
+        word-spacing: 0px;
+        width: 455px;
+        height: 54px;
+        padding-left: 1px;
+        padding-top: 3px;
+    }
+
+    .date2 {
+        margin-top: 23px;
+    }
+
+    .date2 p {
+        padding-left: 1px;
+        padding-top: 1px;
+    }
+
+    .date2 span {
+        padding-right: 0px;
+        padding-top: 1px;
+    }
+
+    .massive2 {
+
+        width: 941px;
+        height: 306px;
+        margin-top: 86px;
+
+    }
+
+    .box5 img {
+
+        width: 295px;
+        height: 195px;
+        margin-top: 1px;
+
+    }
+
+    .box6 img {
+
+        width: 295px;
+        height: 195px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    .box7 img {
+
+        width: 295px;
+        height: 195px;
+        margin-left: 7px;
+        margin-top: 2px;
+
+    }
+
+    .date3 span {
+        padding-right: 7px;
+    }
+
+    .date4 {
+        margin-top: 14px;
+    }
+
+    .date4 p {
+        padding-left: 5px;
+    }
+
+    .date4 span {
+        padding-right: 3px;
+    }
+
+    .date5 {
+        margin-top: 14px;
+
+    }
+
+    .date5 p {
+        padding-left: 8px;
+    }
+
+
+    .plot3 p {
+        word-spacing: 0px;
+
+    }
+
+    .plot4 p {
+        padding-left: 5px;
+        word-spacing: 0px;
+    }
+
+    .plot5 p {
+        padding-left: 8px;
+        margin-top: 23px;
+        word-spacing: -0.2px;
+    }
+
+    .seeall_button {
+        width: 238px;
+        height: 42px;
+        margin-top: 62px;
+        word-spacing: 0px;
+        padding-left: 1px;
+        padding-top: 11px;
+    }
+
+
+    .massive3 {
+        width: 76.5%;
+        height: 362px;
+        margin-top: 60.33px;
+    }
+
+    .box8 img {
+
+        width: 470px;
+        height: 360px;
+
+    }
+
+    .box9 {
+        width: 469.59px;
+
+    }
+
+    .box9 p {
+        margin-top: 124px;
+        margin-left: 60px;
+        word-spacing: 0px;
+
+    }
+
+    .box9 span {
+        width: 42%;
+        margin-left: 131px;
+        padding-left: 45px;
+    }
+
+    .inter {
+        margin-top: 58.67px;
+    }
+
+    .massive4 {
+        width: 948px;
+        margin-left: 149px;
+
+    }
+
+    .box10 img {
+
+        width: 295px;
+        height: 196px;
+
+    }
+
+    .box11 img {
+
+        width: 296px;
+        height: 196px;
+
+    }
+
+    .box12 img {
+
+        width: 295px;
+        height: 196px;
+
+    }
+
+    .date6 {
+        margin-top: 13px;
+    }
+
+    .date6 span {
+        padding-right: 8px;
+        padding-top: 1px;
+    }
+
+    .date7 {
+        margin-top: 13px;
+    }
+
+    .date7 span {
+        padding-right: 6px;
+        padding-top: 0px;
+    }
+
+    .date8 {
+        margin-top: 13px;
+    }
+
+    .date8 span {
+        padding-right: 6px;
+        padding-top: 0px;
+    }
+
+    .plot6 p {
+        padding-left: 1px;
+        margin-top: 21px;
+        word-spacing: 0;
+    }
+
+    .plot7 p {
+        padding-left: 1px;
+        margin-top: 24px;
+        word-spacing: 0;
+    }
+
+    .plot8 p {
+        margin-top: 22px;
+        word-spacing: 0;
+    }
+
+    .seeall1_button {
+        width: 238px;
+        word-spacing: 0;
+        padding-left: 1px;
+        padding-top: 12px;
+
+    }
+
+    .news {
+        margin-top: 61px;
+    }
+
+    .massive5 {
+        width: 76.5%;
+        margin-left: 149px;
+        margin-top: 18px;
+    }
+
+    .box13 img {
+
+        width: 295px;
+        height: 195px;
+    }
+
+    .box14 img {
+
+        width: 295px;
+        height: 195px;
+    }
+
+    .box15 img {
+
+        width: 295px;
+        height: 195px;
+
+    }
+
+    .date9 {
+        margin-top: 18px;
+
+    }
+
+    .date9 span {
+        padding-right: 8px;
+    }
+
+    .date10 {
+        margin-top: 18px;
+
+    }
+
+    .date10 span {
+        padding-right: 8px;
+    }
+
+    .date11 {
+        margin-top: 18px;
+
+    }
+
+    .date11 span {
+        padding-right: 7px;
+        padding-top: 0px;
+    }
+
+    .plot9 p {
+        padding-left: 1px;
+        word-spacing: 0px;
+        margin-top: 22px;
+
+    }
+
+    .plot10 p {
+        padding-left: 0;
+        margin-top: 24px;
+        word-spacing: 0;
+
+    }
+
+    .plot11 p {
+        padding-left: 0px;
+        margin-top: 22px;
+        word-spacing: 0px;
+    }
+
+    .seeall2_button {
+        width: 238px;
+        margin-top: 43px;
+        word-spacing: 0px;
+
+    }
+
+    footer {
+        width: 1240px;
+        height: 163px;
+        margin-top: 87px;
+
+
+    }
+
+    .foott img {
+        margin-left: -100px;
+    }
+
+    footer p {
+        margin-left: 572px;
+        word-spacing: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        width: 768px;
+        height: 2754px;
+        margin: 0 auto;
+    }
+
+
+    header {
+        width: 768px;
+        height: 65px;
+    }
+
+    .suffix_emblem {
+        width: 105px;
+        height: 20px;
+        margin-left: 332px;
+        margin-top: 23px;
+    }
+
+    .menu {
+        margin-top: 22px;
+        margin-left: 23px;
+    }
+
+    .box1 img {
+        width: 385px;
+        height: 354px;
+        object-fit: cover;
+    }
+
+    .box2 {
+        width: 383px;
+        height: 354px;
+    }
+
+    .date {
+        margin-top: 73px;
+        width: 335px;
+        margin-left: 21px;
+    }
+
+    .date p {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 6px;
+
+    }
+
+    .date span {
+        display: none;
+    }
+
+    .chapter {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 15px;
+        margin-left: 21px;
+        word-spacing: 2px;
+    }
+
+    .plot {
+        width: 335px;
+        height: 54px;
+        font-size: 12px;
+        line-height: 18px;
+        font-family: Kanit-Light;
+        font-style: normal;
+        margin-top: -36px;
+        margin-left: 22px;
+        word-spacing: 2px;
+    }
+
+    .read_button {
+        width: 198px;
+        height: 40px;
+        margin-top: 31px;
+        margin-left: 22px;
+        padding-top: 10px;
+
+    }
+
+    .read_button p {
+        word-spacing: 2px;
+    }
+
+
+    .FEATURED {
+        margin-top: 58px;
+        margin-left: 24px;
+    }
+
+    .massive1 {
+        margin-left: 24px;
+        margin-top: 21px;
+        width: 720px;
+        height: 228px;
+
+
+    }
+
+    .box3 {
+        width: 345px;
+        height: 228px;
+
+    }
+
+    .box3 img {
+        width: 345px;
+        height: 228px;
+    }
+
+    .box4 {
+        width: 345px;
+        height: 228px;
+
+    }
+
+    .box4 img {
+        width: 345px;
+        height: 228px;
+    }
+
+    .date1 {
+        margin-top: 18px;
+    }
+
+    .chapter1 {
+        width: 345px;
+        height: 54px;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 14px;
+        word-spacing: 2.8px;
+    }
+
+    .plot1 {
+        width: 345px;
+        height: 63px;
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 5px;
+        padding-left: 1px;
+        word-spacing: 2px;
+    }
+
+    .date2 {
+        margin-top: 18px;
+    }
+
+    .chapter2 {
+        width: 345px;
+        height: 54px;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 14px;
+        word-spacing: 2.8px;
+        padding-left: 0px;
+    }
+
+    .plot2 {
+        width: 345px;
+        height: 63px;
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 5px;
+        padding-left: 1px;
+        word-spacing: 2px;
+        padding-left: 0px;
+    }
+
+
+    .massive2 {
+        margin-top: 227px;
+        width: 713px;
+        margin-left: 24px;
+
+    }
+
+    .box5 {
+        width: 220px;
+        height: 145px;
+
+    }
+
+    .box6 {
+        width: 220px;
+        height: 145px;
+        margin-left: -3px;
+
+    }
+
+    .box7 {
+        width: 220px;
+        height: 145px;
+
+
+    }
+
+    .box5 img {
+        width: 220px;
+        height: 145px;
+
+    }
+
+    .box6 img {
+        width: 220px;
+        height: 145px;
+
+    }
+
+    .box7 img {
+        width: 220px;
+        height: 145px;
+
+    }
+
+    .date3 {
+        margin-top: 20px;
+        padding-left: 0px;
+
+    }
+
+    .date3 span {
+        padding-right: 0px;
+    }
+
+    .plot3 p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0px;
+        margin-top: 15px;
+        word-spacing: 1.5px;
+    }
+
+    .date4 {
+        margin-top: 19px;
+
+    }
+
+    .date4 span {
+        padding-left: 41px;
+    }
+
+    .plot4 p {
+        padding-left: 4px;
+        word-spacing: 2px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+
+    .date5 {
+        margin-top: 19px;
+
+    }
+
+    .date5 span {
+        padding-left: 41px;
+    }
+
+    .plot5 p {
+
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+
+    .seeall_button {
+        margin-top: -8px;
+        word-spacing: 2px;
+    }
+
+
+    .massive3 {
+        width: 718.69px;
+        margin-left: 25px;
+
+    }
+
+    .box8 img {
+        width: 359px;
+        height: 275px;
+        object-fit: fill;
+
+    }
+
+    .box9 {
+        width: 359.69px;
+        height: 275.24px;
+    }
+
+    .box9 p {
+        font-size: 18px;
+        line-height: 27px;
+        margin-left: 90px;
+        margin-top: 89.74px;
+        word-spacing: 2.2px;
+    }
+
+    .box9 span {
+        width: 198px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 81px;
+        margin-top: 27px;
+    }
+
+    .inter {
+
+        margin-top: -34px;
+        margin-left: 24px;
+    }
+
+    .massive4 {
+        margin-left: 24px;
+        width: 720px;
+        margin-top: 32px;
+    }
+
+    .box10 img {
+        width: 220px;
+        height: 145px;
+    }
+
+    .box11 {
+        margin-left: 7px;
+    }
+
+    .box11 img {
+        width: 220px;
+        height: 145px;
+    }
+
+    .box12 {
+        padding-left: 9px;
+    }
+
+    .box12 img {
+        width: 220px;
+        height: 145px;
+    }
+
+    .date6 {
+        margin-top: 12px;
+
+    }
+
+    .date6 span {
+        padding-right: 12px;
+    }
+
+
+    .date7 {
+        margin-top: 12px;
+
+    }
+
+    .date7 span {
+        padding-right: 10px;
+    }
+
+
+    .date8 {
+        margin-top: 13px;
+
+    }
+
+    .date8 span {
+        padding-left: 29px;
+
+    }
+
+    .plot6 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+        padding-left: 0px;
+    }
+
+    .plot7 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+        padding-left: 0px;
+        word-spacing: 2px;
+    }
+
+
+    .plot8 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+        padding-left: 0px;
+    }
+
+    .seeall1_button {
+        margin-top: -33px;
+        word-spacing: 1px;
+        padding-left: 0px;
+        padding-top: 11px;
+    }
+
+    .news {
+        margin-left: 24px;
+        margin-top: -4px;
+    }
+
+    .massive5 {
+        margin-left: 24px;
+        width: 720px;
+        margin-top: 25.39px;
+    }
+
+    .box13 {
+        width: 220px;
+        height: 144.26px;
+    }
+
+    .box14 {
+        width: 220px;
+        height: 144.26px;
+    }
+
+
+    .box15 {
+        width: 220px;
+        height: 144.26px;
+    }
+
+
+    .box13 img {
+        width: 220px;
+        height: 144.26px;
+    }
+
+    .box14 img {
+        width: 220px;
+        height: 144.26px;
+    }
+
+    .box15 img {
+        width: 220px;
+        height: 144.26px;
+    }
+
+    .date9 {
+        margin-top: 10px;
+    }
+
+    .date9 span {
+        padding-right: 0px;
+    }
+
+    .date10 {
+        margin-top: 10px;
+    }
+
+    .date10 span {
+        padding-right: 1px;
+    }
+
+    .date11 {
+        margin-top: 10px;
+    }
+
+    .date11 span {
+        padding-right: 0px;
+    }
+
+    .date11 p {
+        padding-top: 2px;
+    }
+
+    .plot9 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+        word-spacing: 1.2px;
+
+    }
+
+    .plot10 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+        word-spacing: 1.3px;
+    }
+
+    .plot11 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+        word-spacing: 1.5px;
+    }
+
+    .seeall2_button {
+        margin-top: -41px;
+    }
+
+    .seeall2_button p {
+        word-spacing: 2px;
+    }
+
+    footer {
+        width: 768px;
+        height: 163px;
+        margin-top: 70px;
+    }
+
+    .foott {
+        padding-left: 413px;
+    }
+
+    footer p {
+        margin-left: 333px;
+        word-spacing: 2px;
+    }
+
+}
+
+@media screen and (max-width: 860px) and (min-width: 200px) {
+
+    .wrapper {
+        width: 320px;
+        height: 5156px;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 320px;
+        height: 65px;
+    }
+
+    .suffix_emblem {
+        margin-left: 108px;
+    }
+
+    .massive {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .box1 {
+        width: 320px;
+        height: 294px;
+
+    }
+
+    .box1 img {
+        width: 320px;
+        height: 294px;
+        object-fit: fill;
+    }
+
+    .box2 {
+        width: 320px;
+        height: 246px;
+    }
+
+    .date {
+        margin-top: 16px;
+        margin-left: 12px;
+        width: 117px;
+        height: 18px;
+
+    }
+
+    .chapter {
+        margin-left: 12px;
+        font-size: 18px;
+        line-height: 27px;
+        word-spacing: 0px;
+        width: 295px;
+        height: 27px;
+        margin-top: 20px;
+
+    }
+
+    .plot {
+        margin-left: 12px;
+        word-spacing: 0px;
+        width: 295px;
+        height: 54px;
+        margin-top: 20px;
+    }
+
+    .read_button {
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+
+    .FEATURED {
+        margin-top: 44px;
+        margin-left: 12px;
+    }
+
+    .massive1 {
+        display: flex;
+        flex-flow: column nowrap;
+
+        width: 295px;
+        height: 789px;
+        margin-top: 16px;
+        margin-left: 11px;
+    }
+
+    .box3 {
+        width: 295px;
+        height: 383px;
+        margin-left: 0px;
+        margin-top: -3px;
+
+    }
+
+    .box3 img {
+        width: 295px;
+        height: 195px;
+        margin-top: 2px;
+    }
+
+    .date1 {
+        margin-top: 15px;
+        margin-left: -1px;
+    }
+
+    .date1 span {
+        display: none;
+    }
+
+    .chapter1 {
+
+        width: 295px;
+        height: 54px;
+        word-spacing: 3.1px;
+    }
+
+    .plot1 {
+        width: 295px;
+        height: 63px;
+        word-spacing: 2.2px;
+        padding-left: 2px;
+    }
+
+    .box4 {
+        width: 295px;
+        height: 383px;
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    .box4 img {
+        width: 295px;
+        height: 195px;
+        margin-left: 0px;
+    }
+
+    .date2 {
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    .date2 span {
+        display: none;
+    }
+
+    .chapter2 {
+
+        width: 295px;
+        height: 54px;
+        word-spacing: 3.1px;
+    }
+
+    .plot2 {
+        width: 295px;
+        height: 63px;
+        word-spacing: 2.6px;
+    }
+
+
+    .massive2 {
+        margin-top: 100px;
+        display: flex;
+        flex-flow: column;
+        margin-top: 27px;
+        height: 856px;
+        width: 295px;
+        margin-left: 12px;
+
+
+    }
+
+    .box5 {
+        width: 295px;
+        height: 259px;
+    }
+
+    .box5 img {
+        width: 295px;
+        height: 194.31px;
+
+
+    }
+
+    .date3 {
+        margin-top: 12px;
+        margin-left: -1px;
+    }
+
+    .plot3 p {
+        word-spacing: 0px;
+
+    }
+
+    .box6 {
+        width: 295px;
+        height: 271px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .box6 span {
+        padding-left: 117px;
+    }
+
+    .box6 img {
+        width: 295px;
+        Height: 215.22px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .plot4 p {
+        word-spacing: 0px;
+        padding-left: 0px;
+        margin-top: 17px;
+    }
+
+    .date4 {
+        margin-top: 1px;
+        margin-left: -5px;
+    }
+
+    .box7 {
+        width: 295px;
+        height: 271px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .box7 img {
+        width: 295px;
+        Height: 215px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .box7 span {
+        padding-left: 117px;
+    }
+
+    .date5 {
+        margin-top: 1px;
+        margin-left: -9px;
+    }
+
+    .plot5 p {
+        margin-top: 0px;
+    }
+
+    .plot5 {
+        margin-top: 16px;
+        margin-left: -7px;
+
+    }
+
+    .seeall_button {
+        margin-top: 37px;
+        display: block;
+
+    }
+
+    .massive3 {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 420.61px;
+        width: 320px;
+        margin-top: 43px;
+        margin-left: 0px;
+    }
+
+    .box8 {
+        width: 320px;
+        height: 245px;
+        margin-left: 0px;
+    }
+
+    .box8 img {
+        width: 320px;
+        height: 245px;
+        margin-left: 0px;
+        object-fit: cover;
+        margin-top: 0px;
+    }
+
+    .box9 {
+
+        margin-left: 0px;
+        width: 319.72px;
+        height: 174.52px;
+        margin-top: 0px;
+
+    }
+
+    .box9 p {
+        margin-left: 69px;
+        margin-top: 41.84px;
+        word-spacing: 3px;
+
+    }
+
+    .box9 span {
+        width: 198px;
+        height: 42px;
+        margin-left: 61px;
+        margin-top: 27px;
+    }
+
+    .inter {
+        margin-top: 46px;
+        margin-left: 11px;
+    }
+
+    .massive4 {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 295px;
+        height: 856px;
+        margin-left: 12px;
+        margin-top: 14px;
+    }
+
+    .box10 {
+        width: 295px;
+        height: 259px;
+    }
+
+    .box10 img {
+        width: 293px;
+        height: 195px;
+        object-fit: cover;
+    }
+
+    .date6 {
+        margin-top: 11px;
+        margin-left: -2px;
+    }
+
+    .date6 span {
+        padding-right: 1px;
+    }
+
+    .box11 {
+        width: 295px;
+        height: 271px;
+    }
+
+    .box11 img {
+        width: 296px;
+        height: 215px;
+        margin-left: -9px;
+    }
+
+    .date7 {
+        margin-top: 3px;
+        margin-left: -9px;
+    }
+
+    .date7 span {
+        padding-right: 8px;
+    }
+
+    .plot7 p {
+        margin-left: -7px;
+        word-spacing: 0px;
+    }
+
+    .box12 {
+        width: 295px;
+        height: 271px;
+    }
+
+    .box12 img {
+        width: 296px;
+        height: 215px;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+
+    .date8 {
+        margin-top: 3px;
+        margin-left: -11px;
+    }
+
+    .date8 span {
+        padding-left: 106px;
+    }
+
+    .plot8 p {
+        margin-left: -9px;
+        margin-top: 16px;
+    }
+
+    .seeall1_button {
+        margin: 39px 39px;
+    }
+
+    .news {
+        margin-left: 11px;
+        margin-top: 2px;
+    }
+
+    .massive5 {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 850px;
+        width: 295px;
+        margin-left: 11px;
+        margin-top: 16px;
+    }
+
+    .box13 {
+        width: 295px;
+        height: 259px;
+    }
+
+    .box13 img {
+        width: 295px;
+        height: 194px;
+        object-fit: cover;
+
+    }
+
+    .date9 {
+        margin-top: 11px;
+    }
+
+    .date9 p {
+        margin-left: -2px;
+    }
+
+    .plot9 p {
+        word-spacing: 0px;
+        padding-left: 0px;
+    }
+
+    .box14 {
+        width: 295px;
+        height: 271px;
+    }
+
+    .box14 img {
+        width: 295px;
+        height: 215px;
+        margin-top: 4px;
+        margin-left: -1px;
+
+    }
+
+    .date10 {
+        margin-top: 2px;
+    }
+
+    .plot10 p {
+        word-spacing: 0.4px;
+    }
+
+
+    .box15 {
+        width: 295px;
+        height: 271px;
+    }
+
+    .box15 img {
+        width: 295px;
+        height: 215px;
+        margin-top: 7px;
+    }
+
+    .date11 {
+        margin-top: 1px;
+    }
+
+    .plot11 p {
+        word-spacing: 0px;
+    }
+
+    .seeall2_button {
+
+        margin-top: 44px;
+        padding-left: -1px;
+        padding-top: 11px;
+        margin-left: 39px;
+    }
+
+    footer {
+        width: 320px;
+        height: 163px;
+        margin-top: 43px;
+
+    }
+
+    .foott {
+        width: 320px;
+        padding-left: 320px;
+
+    }
+
+    .foott img {
+        margin-left: -229px;
+    }
+
+    footer p {
+        margin-left: 109px;
+        word-spacing: 2px;
+
+    }
+}
