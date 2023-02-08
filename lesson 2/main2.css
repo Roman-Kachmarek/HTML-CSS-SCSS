@@ -1,0 +1,10 @@
+body{
+	background-color: grey;
+}
+
+#head{
+	color: ghostwhite;
+	background-color: seagreen;
+	text-align: right;
+	font-size: 30px;
+}
