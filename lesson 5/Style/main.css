@@ -1,0 +1,420 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: none;
+    text-align: center;
+    line-height: 90px;
+}
+
+.main_button {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #131313;
+}
+
+.team_button {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #131313;
+    margin-left: 100px;
+
+}
+
+.lesson_button {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #131313;
+    margin-left: 100px;
+
+}
+
+.main_active {
+    color: #2785F7;
+}
+
+.main_button:hover {
+    color: #2785F7;
+}
+
+.team_button:hover {
+    color: #2785F7;
+}
+
+.lesson_button:hover {
+    color: #2785F7;
+}
+
+.wrapper {
+    width: 98%;
+    height: 790px;
+    background-color: #EAEBED;
+    margin: 0px auto;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+
+}
+
+.side_panel {
+    height: 450px;
+    width: 120px;
+    margin-top: 140px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #FEFEFE;
+    border-radius: 30px;
+
+}
+
+.uil-desktop-alt {
+    font-size: 30px;
+}
+
+.uil-folder {
+    font-size: 30px;
+}
+
+.uil-users-alt {
+    font-size: 30px;
+}
+
+.uil-cloud-share {
+    font-size: 30px;
+}
+
+.uil-cog {
+    font-size: 30px;
+}
+
+.icons {
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.icons:hover {
+    background-color: #2785F7;
+    border-radius: 15px;
+    color: whitesmoke;
+
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.side_one {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.side_two {
+    height: 489px;
+    width: 66%;
+    float: left;
+
+}
+
+.side_three {
+    height: 489px;
+    width: 34%;
+    float: left;
+}
+
+.project_name {
+    height: 140px;
+    width: 48%;
+    float: left;
+    display: block;
+    text-align: left;
+    margin-top: 25px;
+    margin-right: 45px;
+    margin-left: 15px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+
+}
+
+.organization {
+    height: 140px;
+    width: 48%;
+    float: left;
+    display: block;
+    text-align: left;
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+
+}
+
+span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 18px;
+    color: #B1B1B1;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.description {
+    height: 228px;
+    width: 98%;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+.team {
+    height: 228px;
+    width: 98%;
+    padding-top: 50px;
+    padding-left: 30px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+
+.team img {
+    height: 120px;
+    width: 139px;
+    float: left;
+    margin-right: 25px;
+}
+
+.team p {
+    padding-top: 30px;
+    line-height: 40px;
+}
+
+.data {
+    height: 100%;
+    width: 95%;
+    margin-left: 23px;
+    padding-left: 20px;
+    padding-right: 25px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+}
+
+.data img {
+    height: 116px;
+    width: 120px;
+    margin-top: 30px;
+}
+
+.data p {
+    margin-top: 25px;
+    line-height: 40px;
+
+}
+
+.wrapper1 {
+    width: 98%;
+    height: 790px;
+    background-color: #EAEBED;
+    margin: 0px auto;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.huge_block1 {
+    height: 310px;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+
+}
+
+.huge_block2 {
+    height: 320px;
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+}
+
+.blocks {
+    height: 310px;
+    width: 292px;
+    background-color: #FFFFFF;
+    border-radius: 41px;
+    cursor: pointer;
+}
+
+.block_image {
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.fnt_1 {
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-family: ChronicaPro-Regular;
+    margin-top: 40px;
+}
+
+.fnt_2 {
+    font-size: 27px;
+    text-align: center;
+    color: #C5C5C5;
+    font-weight: lighter;
+    font-family: bahij-sultannahia;
+    margin-top: 5px;
+
+}
+
+.fnt_3 {
+    font-size: 20px;
+    font-family: bahij-sultannahia;
+    color: #C5C5C5;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.blocks:hover {
+    background-color: #2684F7;
+
+}
+
+.blocks:hover p {
+    color: whitesmoke;
+}
+
+.wrapper2 {
+    width: 98%;
+    height: 790px;
+    background-color: #EAEBED;
+    margin: 0px auto;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main_table {
+    height: 80%;
+    width: 85%;
+
+
+}
+
+.td {
+
+    height: 91px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap row;
+    border-radius: 11px;
+
+
+}
+
+.td p {
+    font-size: 20px;
+}
+
+.id {
+    margin-left: -15px;
+}
+
+.topic {
+    margin-right: 85px;
+}
+
+.uil-download-alt {
+
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    padding-left: 8px;
+    padding-top: 4px;
+    border-radius: 11px;
+
+}
+
+.uil-download-alt:hover {
+    background-color: #2684F7;
+    color: whitesmoke;
+}
+
+.td:hover {
+    background-color: #FFFFFF;
+}
+
+.td1 {
+
+    height: 91px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap row;
+    border-radius: 11px;
+
+}
+
+.td1 p {
+    font-size: 20px;
+
+}
