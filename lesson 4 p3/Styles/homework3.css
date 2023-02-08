@@ -1,0 +1,105 @@
+@import url(reset.css);
+@import url(fonts3.css);
+
+.container {
+    height: 650px;
+    width: 1200px;
+    margin: 150px auto;
+}
+    
+.header {
+    height: 40px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5px;
+    color: #c4610a;
+    font-family: Orbitron-Regular;
+}
+
+.main_photo {
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border: 5px double #d6d4d4;
+    display: block;
+}
+
+.photo1 {
+    height: 70px;
+    width: 110px;
+    margin-top: 50px;
+    margin-left: 73px;
+    margin-right: 10px;
+    border: 3px double #d6d4d4;
+
+}
+
+.photo2 {
+    height: 70px;
+    width: 110px;
+    margin-right: 10px;
+    border: 3px double #d6d4d4;
+}
+
+.photo3 {
+    height: 70px;
+    width: 110px;
+    margin-right: 10px;
+    border: 3px double #d6d4d4;
+}
+
+.photo4 {
+    height: 70px;
+    width: 110px;
+    margin-right: 25px;
+    border: 3px double #d6d4d4;
+
+}
+
+h2 {
+    border-bottom: solid 4px #d11b6a;
+    font-size: 30px;
+    color: #c4610a;
+}
+
+.plot {
+    width: 35%;
+    height: 61%;
+    float: right;
+    margin-top: 60px;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 70px;
+    font-family: Orbitron-Regular;
+}
+
+.fa-earlybirds {
+    color: #620c9c;
+    font-size: 20px;
+}
+
+.photo1:hover {
+    border-color: black;
+    border-style: dashed;
+    transform: scale(1.2);
+}
+
+.photo2:hover {
+    border-color: black;
+    border-style: dashed;
+    transform: scale(1.2);
+}
+
+.photo3:hover {
+    border-color: black;
+    border-style: dashed;
+    transform: scale(1.2);
+}
+
+.photo4:hover {
+    border-color: black;
+    border-style: dashed;
+    transform: scale(1.2);
+}
