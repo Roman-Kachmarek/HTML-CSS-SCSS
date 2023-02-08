@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Oxygen:wght@700&display=swap");
+@import "base/reset";
+@import "base/variables";
+@import "base/mixin";
+
+body {
+  background-color: rgba(255, 131, 66, 1);
+}
+
+.hall {
+  background-color: $main-color;
+  height: 300px;
+  width: 100%;
+  margin: 150px auto;
+  display: flex;
+}
+.wrapper {
+  height: 300px;
+  border-right: solid 1px gray;
+  display: flex;
+  overflow: hidden;
+  .main {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide {
+    @include box(0px, 300px, #93deff);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: $title-font;
+      display: block;
+      margin-top: 75px;
+      font-size: 55px;
+      margin-left: 15px;
+    }
+    p {
+      display: block;
+      width: 430px;
+      margin-top: 15px;
+      font-size: 17px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper:hover .main {
+  width: 0px;
+}
+.wrapper:hover .left-slide {
+  width: 100px;
+}
+
+.wrapper:hover .right-slide {
+  width: 500px;
+}
+
+.wrapper-1 {
+  @extend .wrapper;
+  .main-1 {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide1 {
+    @include box(0px, 300px, #005792);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide1 {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: $title-font;
+      display: block;
+      margin-top: 75px;
+      font-size: 55px;
+      margin-left: 15px;
+    }
+    p {
+      display: block;
+      width: 430px;
+      margin-top: 15px;
+      font-size: 17px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper-1:hover .main-1 {
+  width: 0px;
+}
+.wrapper-1:hover .left-slide1 {
+  width: 100px;
+}
+
+.wrapper-1:hover .right-slide1 {
+  width: 500px;
+}
+
+.wrapper-2 {
+  @extend .wrapper;
+  .main-2 {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide2 {
+    @include box(0px, 300px, #007cb9);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide2 {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: $title-font;
+      display: block;
+      margin-top: 75px;
+      font-size: 55px;
+      margin-left: 15px;
+    }
+    p {
+      display: block;
+      width: 430px;
+      margin-top: 15px;
+      font-size: 17px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper-2:hover .main-2 {
+  width: 0px;
+}
+.wrapper-2:hover .left-slide2 {
+  width: 100px;
+}
+
+.wrapper-2:hover .right-slide2 {
+  width: 500px;
+}
+
+.wrapper-3 {
+  @extend .wrapper;
+  .main-3 {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide3 {
+    width: 0px;
+    height: 300px;
+    background: linear-gradient(to bottom, #52c234, #25946b);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide3 {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: $title-font;
+      display: block;
+      margin-top: 75px;
+      font-size: 55px;
+      margin-left: 15px;
+    }
+    p {
+      display: block;
+      width: 430px;
+      margin-top: 15px;
+      font-size: 17px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper-3:hover .main-3 {
+  width: 0px;
+}
+.wrapper-3:hover .left-slide3 {
+  width: 100px;
+}
+
+.wrapper-3:hover .right-slide3 {
+  width: 500px;
+}
+
+.wrapper-4 {
+  @extend .wrapper;
+  .main-4 {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide4 {
+    @include box(0px, 300px, #dc2f2f);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide4 {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: $title-font;
+      display: block;
+      margin-top: 75px;
+      font-size: 55px;
+      margin-left: 15px;
+    }
+    p {
+      display: block;
+      width: 430px;
+      margin-top: 15px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper-4:hover .main-4 {
+  width: 0px;
+}
+.wrapper-4:hover .left-slide4 {
+  width: 100px;
+}
+
+.wrapper-4:hover .right-slide4 {
+  width: 500px;
+}
+
+.wrapper-5 {
+  @extend .wrapper;
+  .main-5 {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide5 {
+    @include box(0px, 300px, #142d4c);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide5 {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: sans-serif;
+      display: block;
+      margin-top: 75px;
+      font-size: 65px;
+      margin-left: 15px;
+      font-weight: 700px;
+    }
+    p {
+      display: block;
+      width: 480px;
+      margin-top: 15px;
+      font-size: 18px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper-5:hover .main-5 {
+  width: 0px;
+}
+.wrapper-5:hover .left-slide5 {
+  width: 100px;
+}
+
+.wrapper-5:hover .right-slide5 {
+  width: 500px;
+}
+
+.wrapper-6 {
+  @extend .wrapper;
+  .main-6 {
+    @include box(100px, 300px, $box-color);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 50px, white);
+      line-height: 270px;
+    }
+  }
+  .left-slide6 {
+    width: 0px;
+    height: 300px;
+    background: #eb3349;
+    background: -webkit-linear-gradient(to top, #f45c43, #eb3349);
+    background: linear-gradient(to top, #f45c43, #eb3349);
+    transition: all 0.7s;
+    text-align: center;
+    i {
+      @include icon(50px, 80px, whitesmoke);
+      line-height: 270px;
+    }
+  }
+
+  .right-slide6 {
+    @include box(0px, 300px, $text-box-color);
+    transition: all 0.7s;
+    h1 {
+      font-family: "Oxygen", sans-serif;
+      display: block;
+      margin-top: 75px;
+      font-size: 65px;
+      margin-left: 15px;
+      font-weight: 700px;
+    }
+    p {
+      display: block;
+      width: 460px;
+      margin-top: 15px;
+      font-size: 18px;
+      line-height: 25px;
+      margin-left: 15px;
+      font-weight: 200px;
+      font-family: $title-font;
+    }
+  }
+}
+
+.wrapper-6:hover .main-6 {
+  width: 0px;
+}
+.wrapper-6:hover .left-slide6 {
+  width: 100px;
+}
+
+.wrapper-6:hover .right-slide6 {
+  width: 500px;
+}

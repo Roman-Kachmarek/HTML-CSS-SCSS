@@ -1,0 +1,11 @@
+@mixin box($w, $h, $color) {
+  width: $w;
+  height: $h;
+  background-color: $color;
+}
+
+@mixin icon($fw, $fz, $color) {
+  font-weight: $fw;
+  font-size: $fz;
+  color: $color;
+}
