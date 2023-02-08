@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+body {
+    background-image: url(pics/space.jpg);
+}
+
+.orbit {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    border: 2px solid grey;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    border-color: grey;
+    transform-style: preserve-3d;
+    transform: rotateX(70deg) rotateY(0deg) rotateZ(0deg);
+
+}
+
+.earth img {
+    height: 500px;
+    width: 500px;
+
+}
+
+.earth {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotateX(-70deg);
+    z-index: 1;
+}
+
+
+.moon {
+    background-image: url(pics/moon.png);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+    animation-name: movement;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    transform: rotateZ(0deg) translate(340px) rotateY(0deg) rotateX(90deg);
+}
+
+@keyframes movement {
+    0% {
+        transform: rotateZ(0deg) translate(340px) rotateY(90deg) rotateX(90deg);
+        box-shadow: rgba(50, 50, 53, 0.25) 0px 0px 80px 8px inset, rgba(0, 0, 0, 1) 0px 0px 0px -18px inset;
+    }
+
+    50% {
+        transform: rotateZ(180deg) translate(340px) rotateY(90deg) rotateX(270deg);
+
+    }
+
+    100% {
+        transform: rotateZ(360deg) translate(340px) rotateY(90deg) rotateX(450deg);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1.0);
+    }
+}

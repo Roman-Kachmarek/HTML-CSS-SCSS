@@ -1,0 +1,205 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+
+body {
+    background-color: #c7d2d6;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    top: 47%;
+    left: 37%;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+p {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    top: 40%;
+    left: 43%;
+    font-size: 50px;
+    font-family: IBMPlexSansThaiLooped-Medium;
+}
+
+
+.white {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    animation-name: first-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+@keyframes first-one {
+    from {
+        box-shadow: 0 0 0 12px rgb(255, 255, 255, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgb(255, 255, 255, 0);
+
+    }
+}
+
+
+.red {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(246, 40, 8, 0.8);
+    animation-name: second-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+@keyframes second-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(246, 40, 8, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgba(246, 40, 8, 0);
+    }
+}
+
+.orange {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(252, 104, 2, 0.8);
+    animation-name: third-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+@keyframes third-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(252, 104, 2, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgba(252, 104, 2, 0);
+    }
+}
+
+
+.yellow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(252, 165, 0, 0.8);
+    animation-name: fourth-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+@keyframes fourth-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(252, 165, 0, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgba(252, 165, 0, 0);
+    }
+}
+
+.blue {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(24, 135, 234, 0.8);
+    animation-name: fifth-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+
+@keyframes fifth-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(24, 135, 234, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgba(24, 135, 234, 0);
+    }
+}
+
+.green {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(21, 232, 168, 0.8);
+    animation-name: sixth-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+
+@keyframes sixth-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(21, 232, 168, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgba(21, 232, 168, 0);
+    }
+}
+
+
+.violet {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(167, 46, 230, 0.8);
+    animation-name: seventh-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+
+}
+
+@keyframes seventh-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(167, 46, 230, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 10px rgba(167, 46, 230, 0);
+    }
+}
+
+
+.black {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.96);
+    animation-name: eigth-one;
+    animation-iteration-count: 3;
+    animation-duration: 2.3s;
+}
+
+
+@keyframes eigth-one {
+    from {
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
+    }
+}
